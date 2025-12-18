@@ -199,11 +199,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -249,8 +244,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/complex-float32-base-assert-is-almost-same-value/tree/esm
 [esm-readme]: https://github.com/stdlib-js/complex-float32-base-assert-is-almost-same-value/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/complex-float32-base-assert-is-almost-same-value/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-float32-base-assert-is-almost-same-value/main/LICENSE
 
 [ecma-262-same-value-algorithm]: http://ecma-international.org/ecma-262/5.1/#sec-9.12
 
