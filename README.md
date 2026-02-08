@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-almost-same-value@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float32-base-assert-is-almost-same-value/tags). For example,
+
+```javascript
 import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-almost-same-value@v0.1.1-deno/mod.js';
 ```
 
@@ -127,7 +132,7 @@ out = isAlmostSameValue( z1, z2, 0 );
 ```javascript
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-eps@deno/mod.js';
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
-import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-almost-same-value@v0.1.1-deno/mod.js';
+import isAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-almost-same-value@deno/mod.js';
 
 var z1 = new Complex64( 1.0, 3.0+EPS );
 var z2 = new Complex64( 1.0+EPS, 3.0 );
