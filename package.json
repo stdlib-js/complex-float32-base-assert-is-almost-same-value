@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float32-base-assert-is-almost-same-value",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test whether two single-precision complex floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).",
   "license": "Apache-2.0",
   "author": {
@@ -42,14 +42,14 @@
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/complex-float32-ctor": "^0.1.0",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
