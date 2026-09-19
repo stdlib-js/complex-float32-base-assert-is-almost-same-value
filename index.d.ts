@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,17 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
-* Test whether two single-precision complex floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).
+* Tests whether two single-precision complex floating-point numbers are approximately the same value within a specified number of ULPs (units in the last place).
 *
-* @module @stdlib/complex-float32-base-assert-is-almost-same-value
+* ## Notes
+*
+* -   The function differs from the `===` operator in that the function treats `-0` and `+0` as distinct and `NaNs` as the same.
+*
+* @param z1 - first complex number
+* @param z2 - second complex number
+* @param maxULP - maximum allowed ULP difference
+* @returns boolean indicating whether two single-precision complex floating-point numbers are approximately the same value within a specified number of ULPs
 *
 * @example
 * var EPS = require( '@stdlib/constants-float32-eps' );
 * var Complex64 = require( '@stdlib/complex-float32-ctor' );
-* var isAlmostSameValue = require( '@stdlib/complex-float32-base-assert-is-almost-same-value' );
 *
 * var z1 = new Complex64( 1.0, 3.0 );
 * var z2 = new Complex64( 1.0+EPS, 3.0 );
@@ -37,12 +47,9 @@
 * bool = isAlmostSameValue( z1, z2, 1 );
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function isAlmostSameValue( z1: Complex64, z2: Complex64, maxULP: number ): boolean;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = isAlmostSameValue;
